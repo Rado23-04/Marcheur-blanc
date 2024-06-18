@@ -54,7 +54,6 @@ public class VaMarcher {
 
         Marais.add(sekolintsika);
 
-        // Faire marcher Bjarni aléatoirement de HEI à ESTI
         randomWalk(hei, esti);
     }
     public static void randomWalk(Lieu start, Lieu destination) {
