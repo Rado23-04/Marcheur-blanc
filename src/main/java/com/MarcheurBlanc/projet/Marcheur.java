@@ -8,4 +8,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class Marcheur {
     private Lieu lieuDeDepart;
+    private Lieu lieuDarrivee;
 }

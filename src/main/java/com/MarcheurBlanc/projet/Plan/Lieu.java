@@ -9,9 +9,5 @@ import java.util.List;
 @AllArgsConstructor
 public class Lieu {
     private String name;
-    private List<Rue> rue;
-
-    public boolean memeRueQue (Lieu AutreLieu){
-        return this.rue.equals(AutreLieu.getRue());
-    }
+    private List<Lieu> lieuConnecte;
 }
